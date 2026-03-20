@@ -1,8 +1,8 @@
 # customer-review-intelligence
 End-to-end NLP pipeline for sentiment analysis, threshold optimization, and customer segmentation using Amazon reviews to drive business decisions.
-# 📊 From Reviews to Revenue: Customer Sentiment Analysis & Topic Discovery
+#  From Reviews to Revenue: Customer Sentiment Analysis & Topic Discovery
 
-## 🚀 Project Overview
+##  Project Overview
 
 Customer reviews contain valuable insights about product performance, customer satisfaction, and business risks. However, most of this data is unstructured and difficult to analyze at scale.
 
@@ -16,7 +16,7 @@ The goal is to transform raw customer feedback into **actionable business intell
 
 ---
 
-## 💼 Business Problem
+##  Business Problem
 
 E-commerce companies receive millions of customer reviews daily, but:
 
@@ -24,11 +24,11 @@ E-commerce companies receive millions of customer reviews daily, but:
 - Customer dissatisfaction is often detected too late
 - Product issues are hidden within large volumes of text
 
-👉 Without automation, businesses cannot effectively respond to customer needs at scale.
+ Without automation, businesses cannot effectively respond to customer needs at scale.
 
 ---
 
-## 🎯 Solution Approach
+##  Solution Approach
 
 This project applies machine learning and NLP techniques to:
 
@@ -52,7 +52,7 @@ This project applies machine learning and NLP techniques to:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - Source: Amazon Reviews Dataset  
 - Type: Unstructured text data  
@@ -70,16 +70,16 @@ This project applies machine learning and NLP techniques to:
 
 ---
 
-## 🧹 Data Processing Strategy
+##  Data Processing Strategy
 
 Two preprocessing pipelines were used:
 
-### 🔹 Baseline Pipeline (For Classification)
+### Baseline Pipeline (For Classification)
 - Minimal cleaning
 - Preserves sentiment signals
 - Optimized for predictive performance
 
-### 🔹 Cleaned Pipeline (For Clustering)
+### Cleaned Pipeline (For Clustering)
 - Stopword removal
 - Lemmatization
 - Noise reduction
@@ -87,7 +87,7 @@ Two preprocessing pipelines were used:
 
 ---
 
-## ⚙️ Feature Engineering
+##  Feature Engineering
 
 - Bag-of-Words (Naive Bayes)
 - TF-IDF (Logistic Regression, SVM)
@@ -96,7 +96,7 @@ Two preprocessing pipelines were used:
 
 ---
 
-## 🤖 Model Performance
+##  Model Performance
 
 | Model | Accuracy | ROC-AUC | Log Loss |
 |------|--------|--------|---------|
@@ -110,27 +110,27 @@ Two preprocessing pipelines were used:
 
 ---
 
-## 🎯 Threshold Optimization
+## Threshold Optimization
 
-### 🔴 Negative Customer Detection (Critical)
+### Negative Customer Detection (Critical)
 
 - Recommended Threshold: **0.35**
 - Priority: **High Recall**
 
-👉 Ensures most dissatisfied customers are detected early
+ Ensures most dissatisfied customers are detected early
 
 ---
 
-### 🟢 Positive Customer Detection
+### Positive Customer Detection
 
 - Recommended Threshold: **0.45**
 - Balanced Precision and Recall
 
-👉 Supports targeted marketing and customer engagement
+ Supports targeted marketing and customer engagement
 
 ---
 
-## 📊 Key Metrics Explained
+## Key Metrics Explained
 
 - **Precision** → Accuracy of predictions  
 - **Recall** → Ability to capture actual cases  
@@ -139,19 +139,19 @@ Two preprocessing pipelines were used:
 - **Log Loss** → Confidence of probability predictions  
 
 ### Business Focus:
-👉 Minimizing **False Negatives** (missed unhappy customers)
+ Minimizing **False Negatives** (missed unhappy customers)
 
 ---
 
-## 🧠 Clustering Insights
+##  Clustering Insights
 
 K-Means clustering revealed key product segments:
 
-- ☕ Coffee Products  
-- 🍵 Tea Products  
-- 🐶 Pet Products  
-- 🍫 Snacks and Sweets  
-- 📦 General Products  
+- Coffee Products  
+- Tea Products  
+- Pet Products  
+- Snacks and Sweets  
+- General Products  
 
 ### Business Value:
 - Customer segmentation  
@@ -160,7 +160,7 @@ K-Means clustering revealed key product segments:
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 - Deploy Logistic Regression for real-world applications
 - Use threshold tuning to prioritize risk detection
@@ -199,17 +199,10 @@ K-Means clustering revealed key product segments:
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates how unstructured customer reviews can be transformed into actionable insights through machine learning.
 
-👉 The real value lies not in prediction alone, but in enabling **data-driven business decisions**.
+The real value lies not in prediction alone, but in enabling **data-driven business decisions**.
 
----
 
-## 👤 Author
-
-**Olalekan Ogunsola**  
-Data Engineer | Analytics Engineer | Machine Learning  
-
----
